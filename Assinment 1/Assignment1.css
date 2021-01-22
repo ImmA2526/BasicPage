@@ -1,161 +1,158 @@
- body{margin-top:40px;
-    display: grid;
-    justify-content: center;
-}
- 
-.rms
-{
-    width: 680px;
-    background-color: teal;
-    text-align: center;  
+body {
+  margin-top: 40px;
+  display: grid;
+  justify-content: center;
 }
 
-.number
-{
-    margin-bottom: 10px;
-    font-size: 16px;
+.rms {
+  width: 680px;
+  background-color: teal;
+  text-align: center;
 }
 
-.nmbr
-{
-    margin-bottom: 8px;
-    margin-top: 8px;
-    font-size: 16px;
-    margin-right: 320px;
+.number {
+  margin-bottom: 10px;
+  font-size: 16px;
 }
 
-#msgbox
-{
-    width: 340px;
-    height: 100px;
+.nmbr {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 16px;
+  margin-right: 320px;
 }
 
-.msg
-{
-    background-color: rgb(164, 161, 161);
-    width: 100%;
-    margin-bottom: 30px;
-    padding-top: 20px;    
+#msgbox {
+  width: 340px;
+  height: 100px;
 }
 
-.cp
-{
-    margin-left: 156px;
+.msg {
+  background-color: rgb(164, 161, 161);
+  width: 100%;
+  margin-bottom: 30px;
+  padding-top: 20px;
 }
 
-.ok
-{
-    display: flex;
+.cp {
+  margin-left: 156px;
 }
 
-.logout
-{
+.ok {
+  display: flex;
+}
+
+.logout {
   margin-left: 360px;
 }
 
-.view
-{
-    display: flex;
-    justify-content: flex-end;
+.view {
+  display: flex;
+  justify-content: flex-end;
 }
 
-input[type=text], textarea, select {
-box-sizing: border-box;
-border-radius: 8px;
-width: 85%;
-height:30px;
-border-color:black;
-outline: none;
+input[type="text"],
+textarea,
+select {
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 85%;
+  height: 30px;
+  border-color: black;
+  outline: none;
 }
 
 label {
-    display: flex;
-    justify-content: left;
-    text-align: right;
-    width: 200px;
-    line-height: 20px;
-    color: black;
-    margin-left:30px;
+  display: flex;
+  justify-content: left;
+  text-align: right;
+  width: 200px;
+  line-height: 20px;
+  color: black;
+  margin-left: 30px;
 }
 
 button:hover {
-    background-color: cadetblue;
+  background-color: cadetblue;
 }
 
-.forms
-{
-    display: grid;
-    justify-content: center;    
+.forms {
+  display: grid;
+  justify-content: center;
 }
 
 .received_msg {
-display: inline-block;
-padding: 0 0 0 6px;
-vertical-align: top;
-width: 100%;
+  display: inline-block;
+  padding: 0 0 0 6px;
+  vertical-align: top;
+  width: 100%;
 }
 
 .received_withd_msg p {
-background: #e4e8fb none repeat scroll 0 0;
-border-radius: 3px;
-color: #646464;
-font-size: 14px;
-margin: 0;
-padding: 5px 10px 5px 12px;
-width: 100%;
+  background: #e4e8fb none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #646464;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
 }
 
-.time_date , #lb {
-color: #747474;
-display: contents;
-font-size: 10px;
-margin: 3px 0 0;
+.time_date,
+#lb {
+  color: #747474;
+  display: contents;
+  font-size: 10px;
+  margin: 3px 0 0;
 }
 
-.received_withd_msg { width: 80%;}
+.received_withd_msg {
+  width: 80%;
+}
 .mesgs {
-float: left;
-padding: 40px;
+  float: left;
+  padding: 40px;
 }
 
 .sent_msg p {
-background:gray ;
-border-radius: 3px;
-font-size: 14px;
-margin: 0; 
-color:#fff;
-padding: 5px 10px 5px 12px;
-width:100%;
+  background: gray;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 0;
+  color: #fff;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
 }
 
-.outgoing_msg{ overflow:hidden; margin:26px 0 26px;}
+.outgoing_msg {
+  overflow: hidden;
+  margin: 26px 0 26px;
+}
 .sent_msg {
-float: right;
-width: 80%;
-text-align: right;
-}
-   
-.loadmsg
-{
-    background-color: gray;
-    margin-top: 20px;
-    height: 30px;
-    color: white;    
-    width: 100%;
+  float: right;
+  width: 80%;
+  text-align: right;
 }
 
-a{
-    color:black;  
+.loadmsg {
+  background-color: gray;
+  margin-top: 20px;
+  height: 30px;
+  color: white;
+  width: 100%;
 }
 
-#A
-{
-    margin-top: 10px;
-    margin-bottom: 10px;
+a {
+  color: black;
 }
 
-.a{
-    display: grid;
-    justify-content: center;
-    color: white;
+#A {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.a {
+  display: grid;
+  justify-content: center;
+  color: white;
 }
